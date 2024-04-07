@@ -3,7 +3,7 @@
 Тестовый пет-проект на DRF по сбору денег
 для разного рода нужд (ДР, свадьбы и тд.)
 
-![alt text](https://github.com/Nekketsu4/book_shop/blob/main/uml.png
+![Image alt](https://github.com/Nekketsu4/book_shop/blob/main/uml.png)
 
 
 ## Содержание
