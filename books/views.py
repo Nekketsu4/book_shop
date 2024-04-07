@@ -14,6 +14,9 @@ from django.shortcuts import get_object_or_404
 
 class NewsFeedListView(viewsets.GenericViewSet,
                        mixins.ListModelMixin):
+    """
+    Лента о поступлении новых книг
+    """
 
     queryset = Book.objects.all().order_by('-created_at')
     serializer_class = NewsFeedSerializer
@@ -22,6 +25,10 @@ class NewsFeedListView(viewsets.GenericViewSet,
 class BooksListRetrieveView(viewsets.GenericViewSet,
                             mixins.ListModelMixin,
                             mixins.RetrieveModelMixin):
+
+    """
+    Список книг, просмотр конкретных книг и комментарии к ним
+    """
 
     queryset = Book.objects.all()
     serializer_class = FavoritesListSerializer
