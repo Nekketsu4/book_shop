@@ -16,7 +16,7 @@
 
 
 
-## UML Диаграмма
+## Диаграмма
 
 ![Image alt](https://github.com/Nekketsu4/book_shop/blob/main/uml.png)
 
