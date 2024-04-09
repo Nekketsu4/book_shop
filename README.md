@@ -31,7 +31,7 @@
 
 ```
 git clone https://github.com/Nekketsu4/book_shop.git
-cd collect_of_money
+cd book_shop
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## Инструкция
 
-* Перед запуском приложения, создайте файл env.prod, затем зайдите в файл .env.example, скопируйте его содержимое в .env.prod и заполните поля
+* Перед запуском приложения, создайте файл .env, затем зайдите в файл .env.example, скопируйте его содержимое в .env и заполните поля
 * Выполните команду "docker-compose -f docker-compose.yaml up -d --build" - для сборки проекта
 * Выполните миграцию "docker-compose -f docker-compose.yaml exec web python manage.py migrate --noinput"
 * Создайте суперпользователя(админа) 'docker-compose -f docker-compose.yaml exec web python manage.py createsuperuser --username="admin" --email=""'
